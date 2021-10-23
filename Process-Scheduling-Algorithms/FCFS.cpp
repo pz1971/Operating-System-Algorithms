@@ -75,7 +75,7 @@ int main()
     show_gantt(gantt) ;
     for(int i = 0 ; i < n ; i++)
     {
-        cout << "Process " << i << ": " ;
+        cout << "Process " << i + 1 << ": " ;
         cout << "Waiting/Response Time : " << waiting_times[i] << " Turnaround Time : " << turnaround_times[i] << endl ;
     }
     cout << "Average Waiting/Response Time : " << average_waiting_time << endl ;
